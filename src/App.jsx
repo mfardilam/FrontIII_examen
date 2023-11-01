@@ -47,7 +47,7 @@ function App() {
       {show && <Card nombre={user.nombre} cancion={user.cancionFavorita}/>}
       {error && 
         <div className={errorEstilo}>
-          <h4>Verifique bien los datos antes de enviar</h4>
+          <h4>Por favor chequea que la información sea correcta</h4>
           <h6>Recuerda que la canción a ingresar debe tener al menos 6 caracteres</h6>
         </div>}
     </div>
