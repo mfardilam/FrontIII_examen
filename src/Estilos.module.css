@@ -1,0 +1,33 @@
+.contenedor{
+    background-color: rgba(113, 89, 137, 0.526);
+    width: 40vw;
+    padding: 10px 0 30px 0;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.inputs{
+    margin: 5px 0 20px 0;
+    width: 50%;
+}
+
+.errorEstilo{
+    margin: 20px;
+    padding: 10px;
+    border: red;
+    background-color: rgba(226, 19, 19, 0.269);
+}
+
+.errorEstilo h4, .errorEstilo h6{
+    margin:0;
+    color: rgb(50, 8, 8);
+}
+
+.errorEstilo h6{
+    font-style: italic;
+}
